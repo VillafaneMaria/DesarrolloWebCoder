@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b842078d1.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header-banner">
+        <nav class="header--navbar">
+            <ul class="header-navbar--principal">
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="productos.html"> Productos </a></li>
+                <li><a href="recetas.html"> Recetas </a></li>
+                <li><a href="sobremi.html"> Sobre mi </a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!--logo-->
+        <h1 class="titulo">Todo Dulce</h1>
+        <!--slogan-->
+        <em>Al mal tiempo, un buen postre!</em>
+        <hr>
+    </header>
+    <form action="">
+        <fieldset>
+            <legend> Contactame! </legend>
+            <label for="name"> Nombre: </label>
+            <input type="text" name="name" placeholder="Nombre" required>
+            <br>
+            <label for="surname">Apellido: </label>
+            <input type="text" name="surname" placeholder="Apellido" required>
+            <br>
+            <label for="email"> E-mail </label>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <br>
+            <br>
+            <label for="pago"> Medios de pago </label>
+            <br>
+            <select name="pago" id="">
+                <option value="">Seleccioná un medio de pago</option>
+                <option value="transferencia"> Trasferencia bancaria</option>
+                <option value="efectivo">Efectivo</option>
+                <option value="mercadoPago">Mercado Pago</option>
+            </select>
+            <br>
+            <br>
+            <label for="mensaje">Escribi aquí tu mensaje</label>
+            <br>
+            <textarea name="mensaje" id="" cols="70" rows="5"></textarea>
+            <br>
+            <br>
+            <div>Entrega del producto</div>
+            <input type="checkbox" name="entrega" value="retiro" checked="checked">Retiro del local
+            <br>
+            <input type="checkbox" name="entrega" value="envio">Envío a domicilio 
+            <br>
+            <input type="checkbox" name="entrega" value="otro">Otro
+            <br>
+            <!--para este caso es conveniente usar un input de tipo radio-->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </fieldset>
+    </form>
+
+    <footer>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="productos.html"> Productos </a></li>
+            <li><a href="recetas.html"> Recetas </a></li>
+            <li><a href="sobremi.html"> Sobre mi </a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div>
+            <p>Seguinos en nuestras redes sociales!</p>
+            <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="http://gmail.com"><i class="fas fa-at"></i></a>
+        </div>
+        
+    </footer>
+</body>
+</html>

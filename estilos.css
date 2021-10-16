@@ -1,0 +1,277 @@
+/*RESET*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*HEADER*/ 
+.header-banner{
+    /*background-image: url(./imagenes/banner5.jpg); reemplazado por el gradient */
+    background-repeat:no-repeat;
+    height: 40vh;
+    padding: 2rem;
+    background: #fffbd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(348, 89%, 37%, 0.336), hsla(54, 100%, 92%, 0.452)),url(./imagenes/banner10.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    grid-area: header;
+   
+}
+
+.header__navbar--principal{
+    padding: 50px;
+    
+}
+
+.header-navbar--principal li{
+    list-style: none;
+    display: inline-block;
+}
+
+.header-navbar--principal a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+}
+
+.header-navbar--principal a:hover{
+    text-decoration: underline;
+}
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+    font-family: 'Architects Daughter', cursive;
+}
+em{
+    background-color:whitesmoke;
+    color: rgb(241, 123, 77);
+    font-family: 'Architects Daughter', cursive;
+    
+}
+/*PÁGINA PRINCIPAL*/
+.rogel{
+    height: 230px;
+    width: 250px;
+    border-radius: 50%;
+}
+.trufa{
+    height: 250px;
+}
+
+
+.subtitulo{
+
+    font-size: 2.5rem;
+    color: rgb(187, 104, 187);
+    padding: 1rem;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.masVendidos{
+    font-size: 3rem;
+    color: rgb(187, 104, 187);
+    padding: 1rem;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.texto{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contenedorFlex{
+    background-color:rgb(241, 220, 194);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.imgCocina{
+    border-radius: 30%;
+    width: 30%;
+}
+
+.bienvenidos{
+    background-color: rgb(241, 220, 194);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bienvenidos .contenedorBienvenidos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidoTexto{
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.tortas{
+    border: 3px solid rgb(65, 45, 32);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: tortas 10s infinite;
+}
+/*cada img durará 3seg, el total es 10s y tengo 0.5seg en cada transision*/
+@keyframes tortas{
+    0%, 30%{
+        background-image: url(./imagenes/cake1.jpg);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.5;
+    }
+    35%, 65%{
+        background-image: url(./imagenes/cake2.jpg);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.5;
+    }
+    70%, 100%{
+        background-image: url(./imagenes/cake3.jpg);
+        opacity: 1;
+    }
+}
+/*FOOTER*/
+footer li{
+    list-style-type:none;
+}
+
+footer{
+    background-color: rgb(109, 92, 106);
+    /*display: ruby-base-container;*/
+    /*text-align:left;*/
+    padding: 0.5rem;
+    padding-left: 1rem;
+    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(348, 89%, 37%, 0.336), hsla(54, 100%, 92%, 0.452)),url(./imagenes/banner10.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    flex-direction: row;
+    
+}
+footer div{
+    flex-direction: row;
+}
+
+body{
+    background-color: #ffecdc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    backdrop-filter: blur(16px);
+    text-align: center;
+    padding: 0%;
+}
+
+/*PRODUCTOS*/
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+
+.productos__columna{
+    margin: 0;
+}
+
+.productos .contenedor{
+    display: grid;
+}
+
+@media(min-width:520px){
+    .productos .contenedor{
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+@media(min-width:728px){
+    .productos .contenedor{
+        grid-template-columns: repeat(3,33.3%);
+    }
+}
+
+@media(min-width:1020px){
+    .productos .contenedor{
+        grid-template-columns: repeat(4,25%);
+    }
+}
+.productos__columna{
+    position: relative;
+}
+
+.productos__columna img{
+    width: 100%;
+    height: auto;
+    line-height: 0;
+}
+
+.tituloProducto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.productos__columna:hover .tituloProducto{
+    opacity: 1;
+}
+/* SOBRE MI */
+.textSobreMi{
+    background-color:whitesmoke;
+    color: rgb(241, 123, 77);
+    font-family: 'Architects Daughter', cursive;
+}
+
+/* RECETAS*/
+.tabla{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.tabla td{
+    align-items: center;
+    justify-content: center;
+}
