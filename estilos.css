@@ -75,6 +75,7 @@ em{
     color: rgb(187, 104, 187);
     padding: 1rem;
     font-family: 'Architects Daughter', cursive;
+    text-align: center;
 }
 
 .masVendidos{
@@ -82,6 +83,7 @@ em{
     color: rgb(187, 104, 187);
     padding: 1rem;
     font-family: 'Architects Daughter', cursive;
+    text-align: center;
 }
 
 .texto{
@@ -102,6 +104,11 @@ em{
     align-items:center;
     justify-content: center;
     padding: 20px;
+}
+
+/*preguntar por qué no se centra el boton*/
+.boton{
+    align-items: center;
 }
 
 .imgCocina{
@@ -169,8 +176,6 @@ footer li{
 
 footer{
     background-color: rgb(109, 92, 106);
-    /*display: ruby-base-container;*/
-    /*text-align:left;*/
     padding: 0.5rem;
     padding-left: 1rem;
     background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -179,6 +184,7 @@ footer{
     background-attachment: fixed;
     position: relative;
     flex-direction: row;
+    text-align: center;
     
 }
 footer div{
@@ -261,6 +267,13 @@ body{
     background-color:whitesmoke;
     color: rgb(241, 123, 77);
     font-family: 'Architects Daughter', cursive;
+}
+
+.imgSobreMi{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-size: 100% 100%;
 }
 
 /* RECETAS*/
