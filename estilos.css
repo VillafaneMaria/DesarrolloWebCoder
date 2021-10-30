@@ -141,7 +141,7 @@ em{
 }
 
 .tortas{
-    border: 3px solid rgb(65, 45, 32);
+    /*border: 3px solid rgb(65, 45, 32);*/
     width: 500px;
     height: 500px;
     margin: auto;
