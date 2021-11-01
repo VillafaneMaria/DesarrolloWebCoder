@@ -1,0 +1,13 @@
+$pink: rgb(159, 50, 163);
+$green: rgb(102, 58, 17);
+
+$primary: $pink;
+$secondary: $green;
+
+.titulo{
+    color: $primary;
+}
+
+.header_em{
+    background-color: $secondary;
+}

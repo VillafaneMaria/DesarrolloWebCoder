@@ -1,0 +1,19 @@
+{
+  "name": "vsc-coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VillafaneMaria/DesarrolloWebCoder.git"
+  },
+  "author": "angie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VillafaneMaria/DesarrolloWebCoder/issues"
+  },
+  "homepage": "https://github.com/VillafaneMaria/DesarrolloWebCoder#readme"
+}
