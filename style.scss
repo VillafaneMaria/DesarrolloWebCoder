@@ -1,13 +1,26 @@
+//DECLARACIONES GLOBALES
 $pink: rgb(159, 50, 163);
 $green: rgb(102, 58, 17);
+$coral: rgb(241, 220, 194);
 
 $primary: $pink;
 $secondary: $green;
+$backg: $coral;
 
-.titulo{
-    color: $primary;
+
+//INDEX 
+.mesasDulce{
+    background-color:$coral;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+
 }
 
-.header_em{
-    background-color: $secondary;
+.contenedorFlex{
+    img{
+        size: 500px 500px;
+    }
 }
+

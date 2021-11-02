@@ -1,8 +1,12 @@
-.titulo {
-  color: #9f32a3;
+.mesasDulce {
+  background-color: #f1dcc2;
+  margin-top: 2.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
 }
 
-.header_em {
-  background-color: #663a11;
+.contenedorFlex img {
+  size: 500px 500px;
 }
 /*# sourceMappingURL=style.css.map */
