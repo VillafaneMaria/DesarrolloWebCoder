@@ -9,4 +9,72 @@
 .contenedorFlex img {
   size: 500px 500px;
 }
+
+.contenedor1 {
+  background-color: #f1dcc2;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  size: 500px 500px;
+}
+
+.caja__titulo {
+  font-size: 3rem;
+  color: #bb68bb;
+  padding: 1rem;
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+
+.caja__img {
+  height: 230px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.boton {
+  border: none;
+  min-width: 100px;
+  height: 50px;
+  padding: 0 30px;
+  background-color: beige;
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffac8e;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.boton:hover {
+  background: #f36937;
+  text-decoration: none;
+}
+
+.boton--relative {
+  position: relative;
+  right: 20px;
+  bottom: -10px;
+}
 /*# sourceMappingURL=style.css.map */

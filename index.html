@@ -32,7 +32,6 @@
         <!--slogan-->
         <em class="header_em">Al mal tiempo, un buen postre!</em>
         <hr>
-        <!-- <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 353.55,5.45 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff8f0;"></path></svg></div>-->
     </header>
 
     <main>
@@ -46,7 +45,10 @@
                         <h5 class="card-title">Sweet Pink</h5>
                         <p class="card-text">Incluye torta personalizada, 1 letter cake, 12 cakepops, 12 cupcakes,
                             galletas (todo acorde a la temática elegida)</p>
-                        <button class="card-text"><a href="contacto.html"> Hacé tu pedido</a></button>
+                            <a href="contacto.html" class="boton boton--relative"> <!--BLOQUE y modificador-->
+                                <span class="boton__texto">Hacé tu pedido</span>
+                                <i class="boton__icono fas fa-arrow-right"></i>
+                            </a>
                     </div>
                 </div>
                 <div class="card">
@@ -55,7 +57,10 @@
                         <h5 class="card-title">Luxurious</h5>
                         <p class="card-text">Incluye torta personalizada, mini torta de chocolate, minitorta de vainilla
                             y 12 cupcakes (todo acorde a la temática elegida)</p>
-                        <button class="card-text"><a href="contacto.html"> Hacé tu pedido</a></button>
+                            <a href="contacto.html" class="boton boton--relative"> <!--BLOQUE y modificador-->
+                                <span class="boton__texto">Hacé tu pedido</span>
+                                <i class="boton__icono fas fa-arrow-right"></i>
+                            </a>
                     </div>
                 </div>
                 <div class="card">
@@ -64,7 +69,10 @@
                         <h5 class="card-title">Childhood</h5>
                         <p class="card-text">Incluye torta personalizada, 12 cupacakes, 6 donas de chocolate, 6 donas de
                             vainilla, 6 macaroons (todo acorde a la temática elegida)</p>
-                        <button class="card-text"><a href="contacto.html"> Hacé tu pedido</a></button>
+                            <a href="contacto.html" class="boton boton--relative"> <!--BLOQUE y modificador-->
+                                <span class="boton__texto">Hacé tu pedido</span>
+                                <i class="boton__icono fas fa-arrow-right"></i>
+                            </a>
                     </div>
                 </div>
             </div>
@@ -86,20 +94,24 @@
         </section>
         <hr>
 
-        <div class="contenedorFlex">
-            <section class="izquierdaMain">
-                <h2 class="masVendidos"> Más vendidos </h2>
-                <img src="./imagenes/tortarogel.jpg" alt="rogel" class="rogel">
-                <img src="./imagenes/lemonpie.jpg" alt="lemon pie" class="rogel">
-                <img src="./imagenes/alfajoresdemaicena.jpg" alt="alfajores" class="rogel">
+        <!--Aplicando metodologia bem-->
+        <div class="contenedor1"> <!--BLOQUE-->
+            <div class="caja">
+                <h2 class="caja__titulo"> Más vendidos </h2>
+                <img src="./imagenes/tortarogel.jpg" alt="rogel" class="caja__img">
+                <img src="./imagenes/lemonpie.jpg" alt="lemon pie" class="caja__img">
+                <img src="./imagenes/alfajoresdemaicena.jpg" alt="alfajores" class="caja__img">
                 <br>
-                <img src="./imagenes/tortamatilda.jpg" alt="torta de chocolate" class="rogel">
-                <img src="./imagenes/tortaclasica.jpg" alt="torta clasica" class="rogel">
-                <img src="./imagenes/brownie.jpg" alt="brownie" class="rogel">
+                <img src="./imagenes/tortamatilda.jpg" alt="torta de chocolate" class="caja__img">
+                <img src="./imagenes/tortaclasica.jpg" alt="torta clasica" class="caja__img">
+                <img src="./imagenes/brownie.jpg" alt="brownie" class="caja__img">
                 <br>
-                <button class="boton"><a href="productos.html"> Ver mas</a></button>
-            </section>
-        </div>-->
+                <a href="productos.html" class="boton boton--relative"> <!--BLOQUE y modificador-->
+                    <span class="boton__texto">Ver Más</span>
+                    <i class="boton__icono fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
 
         <!--<section class="tortasPer">
             <div class="bienvenidos">
@@ -141,7 +153,10 @@
                 <h3 class="subtitulo"> ¡Bienveidos a mi cocina! </h3>
                 <p class="contenidoTexto"> Hola, soy Angie! Bienvenidos a mi rincón dulce! <br> Te invito a conocer mi
                     trabajo y mi historia, <br> nunca es tarde para emprender!</p>
-                <button><a href="sobremi.html"> Ver mas</a></button>
+                    <a href="sobremi.html" class="boton boton--relative"> <!--BLOQUE y modificador-->
+                        <span class="boton__texto">Ver Más</span>
+                        <i class="boton__icono fas fa-arrow-right"></i>
+                    </a>
             </div>
         </section>
         </div>
