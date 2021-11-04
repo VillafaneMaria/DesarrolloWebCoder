@@ -35,21 +35,24 @@ $backg: $coral;
     justify-content: center;
     padding: 20px;
     size: 500px 500px;
+    .caja__titulo{
+        font-size: 3rem;
+        color: rgb(187, 104, 187);
+        padding: 1rem;
+        font-family: 'Architects Daughter', cursive;
+        text-align: center;
+    }
+
+    .caja__img{
+        height: 230px;
+        width: 250px;
+        border-radius: 50%;
+    }
 }
 
-.caja__titulo{
-    font-size: 3rem;
-    color: rgb(187, 104, 187);
-    padding: 1rem;
-    font-family: 'Architects Daughter', cursive;
-    text-align: center;
-}
 
-.caja__img{
-    height: 230px;
-    width: 250px;
-    border-radius: 50%;
-}
+
+
 
 .boton{
     border: none;
@@ -66,6 +69,11 @@ $backg: $coral;
     align-items: center;
     background: rgb(255, 172, 142);
     transition: .3s ease all;
+    .boton--relative{
+        position: relative;
+        right: 20px;
+        bottom: -10px;
+    }
 }
 
 .boton:hover{
@@ -73,8 +81,4 @@ $backg: $coral;
     text-decoration: none;
 }
 
-.boton--relative{
-    position: relative;
-    right: 20px;
-    bottom: -10px;
-}
+

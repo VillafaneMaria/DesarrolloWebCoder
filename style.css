@@ -29,7 +29,7 @@
   size: 500px 500px;
 }
 
-.caja__titulo {
+.contenedor1 .caja__titulo {
   font-size: 3rem;
   color: #bb68bb;
   padding: 1rem;
@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-.caja__img {
+.contenedor1 .caja__img {
   height: 230px;
   width: 250px;
   border-radius: 50%;
@@ -67,14 +67,14 @@
   transition: .3s ease all;
 }
 
-.boton:hover {
-  background: #f36937;
-  text-decoration: none;
-}
-
-.boton--relative {
+.boton .boton--relative {
   position: relative;
   right: 20px;
   bottom: -10px;
+}
+
+.boton:hover {
+  background: #f36937;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
