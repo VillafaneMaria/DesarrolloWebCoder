@@ -1,3 +1,11 @@
+.subtitulo, .mesasDulce .mesasDulce__subtitulo, .contenedor1 .caja__titulo, .contenedorBienvenidos__subtitulo, .productos__subt, .recetas__subtitulo, .sobreMi__subtitulo {
+  font-size: 2.5rem;
+  color: #bb68bb;
+  padding: 1rem;
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+
 .mesasDulce {
   background-color: #f1dcc2;
   margin-top: 2.5%;
@@ -27,14 +35,6 @@
           justify-content: center;
   padding: 20px;
   size: 500px 500px;
-}
-
-.contenedor1 .caja__titulo {
-  font-size: 3rem;
-  color: #bb68bb;
-  padding: 1rem;
-  font-family: 'Architects Daughter', cursive;
-  text-align: center;
 }
 
 .contenedor1 .caja__img {
@@ -76,5 +76,13 @@
 .boton:hover {
   background: #f36937;
   text-decoration: none;
+}
+
+.contenidoTexto {
+  text-align: center;
+  font-size: 1.3rem;
+  color: black;
+  padding: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

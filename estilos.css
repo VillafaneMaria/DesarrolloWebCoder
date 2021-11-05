@@ -63,69 +63,6 @@ em{
     height: 250px;
 }
 
-.contenedor1{
-    background-color:rgb(241, 220, 194);
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    padding: 20px;
-    size: 500px 500px;
-}
-
-.caja__titulo{
-    font-size: 3rem;
-    color: rgb(187, 104, 187);
-    padding: 1rem;
-    font-family: 'Architects Daughter', cursive;
-    text-align: center;
-}
-
-.caja__img{
-    height: 230px;
-    width: 250px;
-    border-radius: 50%;
-}
-
-.boton{
-    border: none;
-    min-width: 100px;
-    height: 50px;
-    padding: 0 30px;
-    background-color: beige;
-    color: white;
-    display: inline-block;
-    border-radius: 100px;
-    text-decoration: none;
-    display: inline-flex;
-    justify-content:space-between;
-    align-items: center;
-    background: rgb(255, 172, 142);
-    transition: .3s ease all;
-}
-
-.boton:hover{
-    background: rgb(243, 105, 55);
-    text-decoration: none;
-}
-
-.boton--relative{
-    position: relative;
-    right: 20px;
-    bottom: -10px;
-}
-.subtitulo{
-
-    font-size: 2.5rem;
-    color: rgb(187, 104, 187);
-    padding: 1rem;
-    font-family: 'Architects Daughter', cursive;
-    text-align: center;
-}
-
 .texto{
     text-align: center;
     font-size: 1.5rem;
@@ -151,10 +88,10 @@ em{
     margin-right: 10%;
 }
 
-.bienvenidos .contenedorBienvenidos{
+/*.bienvenidos .contenedorBienvenidos{
     display: inline-flex;
     flex-direction: column;
-}
+}*/
 
 .contenidoTexto{
     text-align: center;
