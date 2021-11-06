@@ -6,6 +6,82 @@
   text-align: center;
 }
 
+.header-banner {
+  /*background-image: url(./imagenes/banner5.jpg); reemplazado por el gradient */
+  background-repeat: no-repeat;
+  height: 40vh;
+  padding: 2rem;
+  background: #fffbd5;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(rgba(178, 10, 44, 0.336)), to(rgba(255, 251, 214, 0.452))), url(./imagenes/banner10.jpg);
+  background: linear-gradient(to right, rgba(178, 10, 44, 0.336), rgba(255, 251, 214, 0.452)), url(./imagenes/banner10.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  grid-area: header;
+}
+
+.header__navbar--principal {
+  padding: 50px;
+}
+
+.header-navbar--principal li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header-navbar--principal a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2rem;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+}
+
+.header-navbar--principal a:hover {
+  text-decoration: underline;
+}
+
+.titulo {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding: 1rem;
+  font-family: 'Architects Daughter', cursive;
+}
+
+em {
+  background-color: whitesmoke;
+  color: #f17b4d;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.identidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
 .mesasDulce {
   background-color: #f1dcc2;
   margin-top: 2.5%;

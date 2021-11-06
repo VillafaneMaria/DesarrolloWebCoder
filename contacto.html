@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página de Argentina dedicada a la venta de productos de repostería">
     <meta name="keywords" content="tortas, cupcakes, mesas dulces, galletas, temáticas">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3b842078d1.js" crossorigin="anonymous"></script>
     <title>Todo Dulce | Contacto</title>
 </head>
+
 <body>
     <header class="header-banner">
         <nav class="header--navbar">
@@ -24,13 +27,16 @@
         </nav>
 
         <!--logo-->
-        <h1 class="titulo">Todo Dulce</h1>
+        <div class="identidad">
+            <img class="logo" src="./imagenes/logo.png" alt="">
+            <h1 class="titulo">Todo Dulce</h1>
+        </div>
         <!--slogan-->
-        <em>Al mal tiempo, un buen postre!</em>
+        <em class="header_em">Al mal tiempo, un buen postre!</em>
         <hr>
     </header>
 
-    
+
     <form action="">
         <fieldset>
             <legend> Contactame! </legend>
@@ -62,7 +68,7 @@
             <div>Entrega del producto</div>
             <input type="radio" name="entrega" value="retiro" checked="checked">Retiro del local
             <br>
-            <input type="radio" name="entrega" value="envio">Envío a domicilio 
+            <input type="radio" name="entrega" value="envio">Envío a domicilio
             <br>
             <input type="radio" name="entrega" value="otro">Otro
             <br>
@@ -87,7 +93,8 @@
             <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
             <a href="http://gmail.com"><i class="fas fa-at"></i></a>
         </div>
-        
+
     </footer>
 </body>
+
 </html>

@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
 }
-/*HEADER*/ 
+/*HEADER*/
 .header-banner{
     /*background-image: url(./imagenes/banner5.jpg); reemplazado por el gradient */
     background-repeat:no-repeat;
@@ -57,7 +57,8 @@ em{
     color: rgb(241, 123, 77);
     font-family: 'Architects Daughter', cursive;
     
-}
+} 
+
 /*PÁGINA PRINCIPAL*/
 .trufa{
     height: 250px;
