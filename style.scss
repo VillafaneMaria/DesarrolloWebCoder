@@ -166,6 +166,20 @@ em{
     @include contenidoTexto;
 }
 
+.tortasPer{
+    .bienvenidos{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.bienvenidos{
+    .contenedorBienvenidos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 //PRODUCTOS
  .productos__subt{
     @extend .subtitulo;

@@ -80,7 +80,8 @@ em{
 
 .bienvenidos{
     background-color: rgb(241, 220, 194);
-    display:inline-flex;
+    display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 50px;
@@ -104,8 +105,8 @@ em{
 
 .tortas{
     /*border: 3px solid rgb(65, 45, 32);*/
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin: auto;
     background-size: 100% 100%;
     animation: tortas 10s infinite;
