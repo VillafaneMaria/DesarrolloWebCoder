@@ -90,6 +90,32 @@ em{
     width: 80px;
 }
 
+header{
+    background-repeat:no-repeat;
+    height: 40vh;
+    padding: 2rem;
+    /*background: #fffbd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(348, 89%, 37%, 0.336), hsla(54, 100%, 92%, 0.452)),url(./imagenes/banner10.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }  
+}
+
+.nav-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+}
+
 //INDEX 
 .mesasDulce{
     background-color:$coral;
