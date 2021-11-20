@@ -92,9 +92,7 @@ em{
 
 header{
     background-repeat:no-repeat;
-    height: 40vh;
-    padding: 2rem;
-    /*background: #fffbd5;  /* fallback for old browsers */
+    background: #fffbd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(348, 89%, 37%, 0.336), hsla(54, 100%, 92%, 0.452)),url(./imagenes/banner10.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
@@ -106,6 +104,7 @@ header{
         justify-content: center;
     }  
 }
+
 
 .nav-item a{
     text-decoration: none;
@@ -219,3 +218,62 @@ header{
  .sobreMi__subtitulo{
     @extend .subtitulo;
  }
+
+ //FOOTER
+ footer a{
+    list-style: none;
+    color: rgb(66, 66, 66);
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+}
+a:hover{
+    list-style: none;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+}
+.footer-page{
+    background-color: rgb(241, 220, 194);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+.icon-favicon{ 
+    height: 40px;
+    width: 40px;
+    padding-top: 2%;
+    align-items: center;
+    background: #ffac8e;
+    color: rgb(245, 245, 255);
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+.icon-favicon:hover{
+    background: #e29174;
+}
+
+@media (max-Width: 780px) {
+    header{
+        background-repeat:no-repeat;
+        background: #fffbd5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, hsla(348, 89%, 37%, 0.336), hsla(54, 100%, 92%, 0.452)),url(./imagenes/banner10.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        text-align: center;
+        .navbar{
+            display: flex;
+            justify-content: center;
+        }  
+    }
+}

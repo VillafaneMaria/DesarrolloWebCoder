@@ -7,119 +7,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página de Argentina dedicada a la venta de productos de repostería">
     <meta name="keywords" content="tortas, cupcakes, mesas dulces, galletas, temáticas">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3b842078d1.js" crossorigin="anonymous"></script>
     <title>Todo Dulce | Productos</title>
 </head>
 
 <body>
-    <header class="header-banner">
-        <nav class="header--navbar">
-            <ul class="header-navbar--principal">
-                <li><a href="index.html"> Home </a></li>
-                <li><a href="productos.html"> Productos </a></li>
-                <li><a href="recetas.html"> Recetas </a></li>
-                <li><a href="sobremi.html"> Sobre mi </a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="./imagenes/logo.png" alt="" width="30" height="24"> Todo Dulce
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="recetas.html">Recetas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sobremi.html">Sobre Mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-        <!--logo-->
-        <div class="identidad">
-            <img class="logo" src="./imagenes/logo.png" alt="">
-            <h1 class="titulo">Todo Dulce</h1>
-        </div>
-        <!--slogan-->
-        <em class="header_em">Al mal tiempo, un buen postre!</em>
-        <hr>
+        </nav>
     </header>
 
-    <section class="productos">
-
-        <h3 class="productos__subt">Nuestros Productos</h3>
-
-        <div class="contenedor">
-
-            <div class="productos__columna">
-                <img src="./imagenes/chocoOreo.PNG">
-                <a class="tituloProducto" href="#"> ChocoOreo </a>
+    <main>
+        <div class="header-banner">
+            <!--logo-->
+            <div class="identidad">
+                <img class="logo" src="./imagenes/logo.png" alt="">
+                <h1 class="titulo">Todo Dulce</h1>
             </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/lemonPie.PNG">
-                <a class="tituloProducto" href="#"> Lemon Pie </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/maicenas.PNG">
-                <a class="tituloProducto" href="#"> Alfajores de Maicena </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/tortaChocolate.PNG">
-                <a class="tituloProducto" href="#"> Torta Matilda </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/alfajores.PNG">
-                <a class="tituloProducto" href="#"> Alfajores de Chocolate </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/budinArandanos.PNG">
-                <a class="tituloProducto" href="#"> Budín de Arándanos </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/budinLimon.PNG">
-                <a class="tituloProducto" href="#"> Budín de Limón</a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/cookies.jpeg">
-                <a class="tituloProducto" href="#"> Cookies </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/tartaCoco.PNG">
-                <a class="tituloProducto" href="#"> Tarta de Coco </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/rogel.jpeg">
-                <a class="tituloProducto" href="#"> Torta Rogel </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/brownie1.jpg">
-                <a class="tituloProducto" href="#"> Brownie </a>
-            </div>
-
-            <div class="productos__columna">
-                <img src="./imagenes/clasica.jpeg">
-                <a class="tituloProducto" href="#"> Torta Clásica </a>
-            </div>
+            <!--slogan-->
+            <em class="header_em">Al mal tiempo, un buen postre!</em>
         </div>
+        <section class="productos">
 
-    </section>
+            <h3 class="productos__subt">Nuestros Productos</h3>
+
+            <div class="contenedor">
+
+                <div class="productos__columna">
+                    <img src="./imagenes/chocoOreo.PNG">
+                    <a class="tituloProducto" href="#"> ChocoOreo </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/lemonPie.PNG">
+                    <a class="tituloProducto" href="#"> Lemon Pie </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/maicenas.PNG">
+                    <a class="tituloProducto" href="#"> Alfajores de Maicena </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/tortaChocolate.PNG">
+                    <a class="tituloProducto" href="#"> Torta Matilda </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/alfajores.PNG">
+                    <a class="tituloProducto" href="#"> Alfajores de Chocolate </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/budinArandanos.PNG">
+                    <a class="tituloProducto" href="#"> Budín de Arándanos </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/budinLimon.PNG">
+                    <a class="tituloProducto" href="#"> Budín de Limón</a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/cookies.jpeg">
+                    <a class="tituloProducto" href="#"> Cookies </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/tartaCoco.PNG">
+                    <a class="tituloProducto" href="#"> Tarta de Coco </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/rogel.jpeg">
+                    <a class="tituloProducto" href="#"> Torta Rogel </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/brownie1.jpg">
+                    <a class="tituloProducto" href="#"> Brownie </a>
+                </div>
+
+                <div class="productos__columna">
+                    <img src="./imagenes/clasica.jpeg">
+                    <a class="tituloProducto" href="#"> Torta Clásica </a>
+                </div>
+            </div>
+
+        </section>
+    </main>
     <footer>
-        <ul>
-            <li><a href="index.html"> Home </a></li>
-            <li><a href="productos.html"> Productos </a></li>
-            <li><a href="recetas.html"> Recetas </a></li>
-            <li><a href="sobremi.html"> Sobre mi </a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-        <div>
-            <p>Seguinos en nuestras redes sociales!</p>
-            <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
-            <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
-            <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
-            <a href="http://gmail.com"><i class="fas fa-at"></i></a>
+        <div class="footer-page">
+            <div>
+                <ul class="text-start">
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="productos.html"> Productos </a></li>
+                    <li><a href="recetas.html"> Recetas </a></li>
+                    <li><a href="sobremi.html"> Sobre mi </a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="mt-5">
+                <p>Seguinos en nuestras redes sociales!</p>
+                <div class="d-flex justify-content-evenly">
+                    <a href="http://facebook.com"><i class="fab fa-facebook icon-favicon"></i></a>
+                    <a href="http://instagram.com"><i class="fab fa-instagram icon-favicon"></i></a>
+                    <a href="http://twitter.com"><i class="fab fa-twitter icon-favicon"></i></a>
+                    <a href="http://gmail.com"><i class="fas fa-at icon-favicon"></i></a>
+                </div>
+            </div>
+            <div>
+            </div>
         </div>
-
+        <div class="rights-of-author">
+            <a>©2021 Todos los derechos reservados | All right reserved | Terms Of Service</a>
+        </div>
     </footer>
 </body>
 

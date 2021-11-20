@@ -84,9 +84,8 @@ em {
 
 header {
   background-repeat: no-repeat;
-  height: 40vh;
-  padding: 2rem;
-  /*background: #fffbd5;  /* fallback for old browsers */
+  background: #fffbd5;
+  /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(rgba(178, 10, 44, 0.336)), to(rgba(255, 251, 214, 0.452))), url(./imagenes/banner10.jpg);
   background: linear-gradient(to right, rgba(178, 10, 44, 0.336), rgba(255, 251, 214, 0.452)), url(./imagenes/banner10.jpg);
@@ -213,5 +212,85 @@ header .navbar {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+footer a {
+  list-style: none;
+  color: #424242;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+a:hover {
+  list-style: none;
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+.footer-page {
+  background-color: #f1dcc2;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+}
+
+.icon-favicon {
+  height: 40px;
+  width: 40px;
+  padding-top: 2%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ffac8e;
+  color: #f5f5ff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 18px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.icon-favicon:hover {
+  background: #e29174;
+}
+
+@media (max-Width: 780px) {
+  header {
+    background-repeat: no-repeat;
+    background: #fffbd5;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(rgba(178, 10, 44, 0.336)), to(rgba(255, 251, 214, 0.452))), url(./imagenes/banner10.jpg);
+    background: linear-gradient(to right, rgba(178, 10, 44, 0.336), rgba(255, 251, 214, 0.452)), url(./imagenes/banner10.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+  }
+  header .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
