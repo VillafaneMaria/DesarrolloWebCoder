@@ -64,17 +64,17 @@
         </div>
 
 
-        <form action="">
-            <fieldset>
-                <legend> Contactame! </legend>
+        <form action="" class="form-contact mb-5 m-2">
+            <fieldset class="mt-5">
+                <legend class="text-center"> Contactame! </legend>
                 <label for="name"> Nombre: </label>
-                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="text" class="form-control" name="name" placeholder="" required>
                 <br>
                 <label for="surname">Apellido: </label>
-                <input type="text" name="surname" placeholder="Apellido" required>
+                <input type="text" class="form-control" name="surname" placeholder="" required>
                 <br>
                 <label for="email"> E-mail </label>
-                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="email" class="form-control" name="email" placeholder="" required>
                 <br>
                 <br>
                 <label for="pago"> Medios de pago </label>
@@ -89,19 +89,22 @@
                 <br>
                 <label for="mensaje">Escribi aquí tu mensaje</label>
                 <br>
-                <textarea name="mensaje" id="" cols="70" rows="5"></textarea>
+                <textarea name="mensaje" class="w-100" cols="50" rows="5"></textarea>
                 <br>
                 <br>
                 <div>Entrega del producto</div>
-                <input type="radio" name="entrega" value="retiro" checked="checked">Retiro del local
-                <br>
-                <input type="radio" name="entrega" value="envio">Envío a domicilio
-                <br>
-                <input type="radio" name="entrega" value="otro">Otro
-                <br>
+                <div class="mb-2">
+                    <input type="radio" name="entrega" value="retiro" checked="checked">Retiro del local
+                    <br>
+                    <input type="radio" name="entrega" value="envio">Envío a domicilio
+                    <br>
+                    <input type="radio" name="entrega" value="otro">Otro
+                </div>
                 <!--para este caso es conveniente usar un input de tipo radio-->
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
+                <div class="d-flex justify-content-around">
+                    <input type="submit" class="btn btn-outline-primary w-100 m-2" value="Enviar">
+                    <input type="reset" class="btn btn-outline-primary w-100 m-2" value="Limpiar">
+                </div>
             </fieldset>
         </form>
     </main>
